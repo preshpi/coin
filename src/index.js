@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import { ThemeProvider } from './components/themeContext';
-import Navbar from './components/navbar';
+import Navbar from './components/Navbar';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
