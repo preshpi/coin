@@ -40,9 +40,9 @@ function Navbar() {
             
             <div className="flex justify-between items-center max-w[1240]  px-6">
                 <div className="flex mt-3">
-                <img src={require('../images/logo.svg').default} height={30} width={30} className="md:block sm:hidden mx-3 lg:animate-bounce cursor-pointer"/>
+                <img src={require('../images/logo.svg').default} height={37} width={37} className="md:block sm:hidden mx-2 lg:mx-3 lg:animate-bounce cursor-pointer"/>
                 <div className="flex ">
-                    <ul className="hidden sm:flex sm:visible gap-2 lg:gap-3 mt-2">
+                    <ul className="hidden sm:flex sm:visible gap-2 lg:gap-3 mt-2 mx-3">
 
                     <li onClick={() => scrollToSection(howItWorks)} className=" cursor-pointer text-black dark:text-grey hover:text-blue dark:hover:text-white">How</li>
                     <li onClick={() => scrollToSection(features)}  className="  cursor-pointer text-black dark:text-grey hover:text-blue dark:hover:text-white">Features</li>
@@ -55,13 +55,13 @@ function Navbar() {
                 </div>
 
 
-                <div className="flex mt-3 mx-3">
+                <div className="flex mt-3 mx-2">
                     <div className="grid lg:grid-cols-3  grid-cols-3 gap-4 cursor-pointer mt-4 lg:mt-2">
                     <a href="#"><FiTwitter  className="dark:text-gray text-grey hover:text-gray dark:hover:text-white lg:text-xl transform transition-all hover:scale-125"/></a>
                     <a href="#"><TbBrandTelegram  className="dark:text-gray text-grey hover:text-gray dark:hover:text-white lg:text-xl transform transition-all hover:scale-125"/></a>
                     <a href="#"><FiInstagram  className="dark:text-gray text-grey hover:text-gray dark:hover:text-white lg:text-xl transform transition-all hover:scale-125"/></a>
                     </div>
-                    <div className="mx-4">
+                    <div className="mx-3">
                         <Toggle className=" dark:text-gray"/>
                     </div>
                     
@@ -70,7 +70,7 @@ function Navbar() {
                             <button className="bg-blue rounded  px-1 py-1 text-white font-semibold hover:text-black ">Lightpaper</button>
                         </a>   
                         <a href="#">
-                            <button className="rounded mx-6 lg:mx-2 px-1 py-1 dark:hover:text-white hover:text-black font-semibold border-2 text-gray">Telegram</button>
+                            <button className="rounded mx-5 lg:mx-2 md:mx-3 px-1 py-1 dark:hover:text-white hover:text-black font-semibold border-2 text-gray">Telegram</button>
                         </a>   
 
                     </div>
@@ -620,8 +620,6 @@ function Navbar() {
 
                     
        
-            
-
             
     </div>
   )
