@@ -40,7 +40,7 @@ function Navbar() {
             
             <div className="flex justify-between items-center max-w[1240]  px-6">
                 <div className="flex mt-3">
-                <img src={require('../images/logo.svg').default} height={37} width={37} className="md:block sm:hidden mx-3 lg:animate-bounce cursor-pointer"/>
+                <img src={require('../images/logo.svg').default} height={30} width={30} className="md:block sm:hidden mx-3 lg:animate-bounce cursor-pointer"/>
                 <div className="flex ">
                     <ul className="hidden sm:flex sm:visible gap-2 lg:gap-3 mt-2">
 
