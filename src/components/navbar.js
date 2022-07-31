@@ -604,8 +604,8 @@ function Navbar() {
                 <div className="p-8 lg:p-18 md:p-12">
                 <h3 className="text-white text-center text-xl">You're early, want to find out how to get access in the sale?</h3>
                 <div className="flex text-center justify-center">
-                    <a href="#"><button className="bg-white  text-blue rounded-lg py-2 px-5 mt-4 mb-6 mx-2">Ask in telegram</button></a> 
-                    <a href="#"><button className="bg-white  text-blue rounded-lg py-2 px-5 mt-4 mb-6 mx-2">Direct email</button></a>
+                    <a href="#"><button className="bg-white  text-blue rounded-lg py-2 px-2 mt-4 mb-6 mx-2">Ask in telegram</button></a> 
+                    <a href="#"><button className="bg-white  text-blue rounded-lg py-2 px-3 mt-4 mb-6 mx-2">Direct email</button></a>
                 </div> 
              
                 <div className="flex text-center justify-center">
