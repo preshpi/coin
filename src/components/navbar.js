@@ -57,7 +57,7 @@ function Navbar() {
 
                 <div className="flex mt-3 mx-2">
              
-                    <div className="mx-3">
+                    <div className="mx-3 mt-2">
                         <Toggle className=" dark:text-gray"/>
                     </div>
                     
@@ -603,9 +603,9 @@ function Navbar() {
             <div  className="container-lg text-center bg-blue m-6 rounded-lg lg:h-64 h-80">
                 <div className="p-8 lg:p-18 md:p-12">
                 <h3 className="text-white text-center text-xl">You're early, want to find out how to get access in the sale?</h3>
-                <div className=" text-center">
+                <div className="flex text-center justify-center">
                     <a href="#"><button className="bg-white  text-blue rounded-lg py-2 px-5 mt-4 mb-6 mx-2">Ask in telegram</button></a> 
-                    <a href="#"><button className="bg-white  text-blue rounded-lg py-2 px-5 lg:mt-4 mb-3 mx-2">Direct email</button></a>
+                    <a href="#"><button className="bg-white  text-blue rounded-lg py-2 px-5 mt-4 mb-6 mx-2">Direct email</button></a>
                 </div> 
              
                 <div className="flex text-center justify-center">
