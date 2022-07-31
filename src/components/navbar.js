@@ -301,7 +301,7 @@ function Navbar() {
                     <div className="relative lg:m-24 lg:p-10">
                         <div className="grid lg:grid-cols-2 lg:px-5 lg:mt-10">
                         <div className="flex gap-10 m-5  px-4 place-content-between">
-                            <img src={require('../images/network.png').default}/>
+                            <img src={require('../images/network.png')}/>
                            
                         </div>
                    
