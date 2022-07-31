@@ -61,16 +61,16 @@ function Navbar() {
                     <a href="#"><TbBrandTelegram  className="dark:text-gray text-grey hover:text-gray dark:hover:text-white lg:text-xl transform transition-all hover:scale-125"/></a>
                     <a href="#"><FiInstagram  className="dark:text-gray text-grey hover:text-gray dark:hover:text-white lg:text-xl transform transition-all hover:scale-125"/></a>
                     </div>
-                    <div className="mx-2">
+                    <div className="mx-4">
                         <Toggle className=" dark:text-gray"/>
                     </div>
                     
-                    <div className="grid grid-cols-2 gap-1 mt-2 lg:mt-0">
+                    <div className="grid grid-cols-2 mt-2 lg:mt-0">
                         <a href="#">
-                            <button className="bg-blue rounded mx-2 px-1 py-1 text-white font-semibold hover:text-black ">Lightpaper</button>
+                            <button className="bg-blue rounded  px-1 py-1 text-white font-semibold hover:text-black ">Lightpaper</button>
                         </a>   
                         <a href="#">
-                            <button className="rounded mx-2 px-1 py-1 dark:hover:text-white hover:text-black font-semibold border-2 text-gray">Telegram</button>
+                            <button className="rounded mx-6 lg:mx-2 px-1 py-1 dark:hover:text-white hover:text-black font-semibold border-2 text-gray">Telegram</button>
                         </a>   
 
                     </div>
@@ -604,12 +604,12 @@ function Navbar() {
                </div>
             </div>    
 
-            <div  className="container-lg text-center bg-blue m-6 rounded-lg lg:h-64 h-40">
-                <div className="p-8 lg:p-20">
+            <div  className="container-lg text-center bg-blue m-6 rounded-lg h-64 md:h-40">
+                <div className="p-8 lg:p-20 md:p-12">
                 <h3 className="text-white text-center text-xl">You're early, want to find out how to get access in the sale?</h3>
                <div className=" text-center">
                     <a href="#"><button className="bg-white  text-blue rounded-lg py-2 px-5 mt-4 mb-6 mx-2">Ask in telegram</button></a> 
-                    <a href="#"><button className="bg-white  text-blue rounded-lg py-2 px-5 mt-4 mb-3 mx-2">Direct email</button></a>
+                    <a href="#"><button className="bg-white  text-blue rounded-lg py-2 px-5 lg:mt-4 mb-3 mx-2">Direct email</button></a>
                 </div> 
                 </div>
             
