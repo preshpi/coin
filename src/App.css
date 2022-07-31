@@ -1,8 +1,37 @@
-.max-w-screen-xl{
-    background: linear-gradient(123deg, #2E99B0 0%, #2E99B0 40%, #FCD77F calc(40% + 1px), #FCD77F 60%, #FF2E4C calc(60% + 1px), #FF2E4C 75%, #1E1548 calc(75% + 1px), #1E1548 100%);
-    border-radius: 10px;
-    color: #fff;
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400&display=swap');
+
+body{
+  font-family: 'Inter', sans-serif;
 }
-.uration-200{
+/* scroll to top button */
+.top-btn-position {
+    position: fixed;
+    bottom: 15px;
+    right: 20px;
+  }
+  
+  .top-btn-style {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    border: 2px solid #333;
+    background-color: #fff;
+    color: #333;
+    cursor: pointer;
+  }
+  
+  .top-btn-style:hover {
+    animation: none;
+    background-color: #333;
     color: #fff;
-}
+    border: 2px solid #fff;
+  }
+
+  .pq{
+    max-width:-700px;
+    text-align:center;
+  }
+
+  .imp{
+    transform: scaleX(-1);
+   }

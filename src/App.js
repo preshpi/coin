@@ -1,15 +1,10 @@
 import './App.css';
 import React from 'react';
-
+import Navbar from './components/navbar'
 function App() {
   return (
-    <section className="text-gray-700 body-font flex align-center justify-center">
-   
 
-    </section>
-
-    
-
+    <Navbar/>
     
   );
 }
