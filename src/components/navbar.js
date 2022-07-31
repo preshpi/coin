@@ -55,9 +55,9 @@ function Navbar() {
                 </div>
 
 
-                <div className="flex mt-3 mx-2">
+                <div className="flex mt-2">
              
-                    <div className="mx-3 mt-2">
+                    <div className="mx-3 mt-2 lg:mt-0">
                         <Toggle className=" dark:text-gray"/>
                     </div>
                     
