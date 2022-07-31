@@ -600,7 +600,7 @@ function Navbar() {
                </div>
             </div>    
 
-            <div  className="container-lg text-center bg-blue m-6 rounded-lg lg:h-64 h-64">
+            <div  className="container-lg text-center bg-blue m-6 rounded-lg lg:h-64 h-80">
                 <div className="p-8 lg:p-18 md:p-12">
                 <h3 className="text-white text-center text-xl">You're early, want to find out how to get access in the sale?</h3>
                 <div className=" text-center">
