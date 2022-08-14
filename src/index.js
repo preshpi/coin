@@ -9,7 +9,7 @@ import reportWebVitals from './reportWebVitals';
 ReactDOM.render(
   <React.StrictMode>
     <ThemeProvider>
-      <body className="bg-white dark:bg-black transition-all">
+      <body className="bg-white dark:bg-black transition-all font-sans">
         <main>
           <div className="absolute w-full  right-0 top-0">
             <Navbar />

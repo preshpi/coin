@@ -65,7 +65,7 @@ function Navbar() {
                         <a href="#">
                             <button className="bg-blue rounded  px-1 py-1 text-white font-semibold hover:text-black ">Lightpaper</button>
                         </a>   
-                        <a href="#">
+                        <a href="t.me/lincolnsale">
                             <button className="rounded mx-2 lg:mx-2 md:mx-3 px-1 py-1 dark:hover:text-white hover:text-black font-semibold border-2 text-gray">Telegram</button>
                         </a>   
 
@@ -97,53 +97,109 @@ function Navbar() {
                 <h1 className="text-2xl text-black dark:text-white mt-2">We're giving you the power <br/> to decide... </h1>
                 <p class="mb-3 text-gray mt-2 lg:text-xl m-4 lg:m-8">Cointools keeps the application design easy to learn with features that keep it simple. Browse
                   through thousands of crypto opportunities and keep your eye on the ball with our intuitive app.</p>
-                   <a target="_blank" href="#"><button className="dark:hover:text-light border-2 rounded-lg px-2 py-1 text-gray">Join our Telegram</button></a></div>
-                
-                  <div className="grid lg:grid-cols-3 mt-8 pt-6 gap-10 m-10 lg:m-20">
-                    <div>
-                       <small class="tag mb-2 block relative">
-                            <div class="text-4xl font-semibold absolute left-0 bottom-0 transform -translate-x-1/2 text-grey dark:text-rare dark:text-opacity-10">
-                             01
-                            </div> 
-                            <p className="text-red mx-2 text-sm relative">CONNECT</p>
-                        </small> 
-                        <h3 className="dark:text-white">Connect your wallet</h3>
-                        <p className="dark:text-grey text-sm mt-2">Using Metamask, you will have the ability to see your coins appear in your Cointools Portfolio automatically.</p>
-                        <div className="bg-light dark:bg-black rounded-lg mt-3 mb-3 lg:w-100 lg:h-46">
-                        <img src={require('../images/img1.png').default}/>
-                        </div>
-                        
-                    </div>
-                    <div>
-                         <small class="tag mb-2 block relative">
-                            <div class="text-4xl font-semibold absolute left-0 bottom-0 transform -translate-x-1/2 text-grey dark:text-rare dark:text-opacity-10">
-                             02
-                            </div> 
-                            <p className="text-red mx-1 text-sm relative">PORTFOLIO</p>
-                        </small> 
-                        <h3 className="dark:text-white">Manage your portfolio</h3>
-                        <p className="dark:text-grey text-sm mt-2">Add tokens and keep track of your profit & loss. Your information sits on your machine.</p>
-                        <div className="bg-light dark:bg-black rounded-lg mt-3 mb-3 lg:w-100 lg:h-46">
-                        <img src={require('../images/img2.png').default}/>
-                        </div>
+                   <a target="_blank" href="t.me/lincolnsale"><button className="dark:hover:text-light border-2 rounded-lg px-2 py-1 text-gray">Join our Telegram</button></a></div>
 
-                    </div>
-                    
-                   
-                     <div>
-                        <small class="tag mb-2 block relative">
-                            <div class="text-4xl font-semibold absolute left-0 bottom-0 transform -translate-x-1/2 text-grey dark:text-rare dark:text-opacity-10">
-                             03
-                            </div> 
-                            <p className="text-red mx-1 text-sm relative">DISCOVER</p>
-                        </small> 
-                        <h3 className="dark:text-white">Find opportunities</h3>
-                        <p className="dark:text-grey mt-2 text-sm">Find upcoming events and project better what your stocks will do. Make better decisions.</p>
-                        <div className="bg-light dark:bg-black rounded-lg mt-3 mb-3 lg:w-100 lg:h-46">
-                        <img src={require('../images/img3.png').default}/>
+                   <div className="mt-8 pt-6 m-10 lg:m-20">
+                       <h1 className="text-start text-2xl font-serif dark:text-white mb-8">How to get started as project owner</h1>
+                 
+                        <div className="grid lg:grid-cols-3 gap-10 ">
+                            <div className="mt-2">
+                            <small class="tag mb-2 block relative">
+                                    <div class="text-4xl font-semibold absolute left-0 bottom-0 transform -translate-x-1/2 text-grey  dark:text-opacity-10">
+                                    01
+                                    </div> 
+                                    <p className="text-red mx-3 text-sm relative">CONNECT</p>
+                                </small> 
+                                <h3 className="dark:text-white">Connect your wallet</h3>
+                                <p className="dark:text-grey text-sm mt-2">Using Metamask, you will have the ability to see your connected address appear in our dashboard automatically.</p>
+                                <div className="bg-light dark:bg-black rounded-lg mt-3 mb-3 lg:w-100 lg:h-46">
+                                <img src={require('../images/img1.png').default}/>
+                                </div>
+                                
+                            </div>
+                            <div className="mt-2">
+                                <small class="tag mb-2 block relative">
+                                    <div class="text-4xl font-semibold absolute left-0 bottom-0 transform -translate-x-1/2 text-grey  dark:text-opacity-10">
+                                    02
+                                    </div> 
+                                    <p className="text-red mx-3 text-sm relative">CREATE A TOKEN</p>
+                                </small> 
+                                <h3 className="dark:text-white">Click on token creation</h3>
+                                <p className="dark:text-grey text-sm mt-2">Fill all required fields in the information box that will be shown to you and click on proceed to automatically create your custom token..</p>
+                                <div className="bg-light dark:bg-black rounded-lg mt-3 mb-3 lg:w-100 lg:h-46">
+                                <img src={require('../images/img2.png').default}/>
+                                </div>
+
+                            </div>
+                            
+                        
+                            <div className="mt-2">
+                                <small class="tag mb-2 block relative">
+                                    <div class="text-4xl font-semibold absolute left-0 bottom-0 transform -translate-x-1/2 text-grey dark:text-opacity-10">
+                                    03
+                                    </div> 
+                                    <p className="text-red mx-3 text-sm relative">CREATE TOKEN PRESALE</p>
+                                </small> 
+                                <h3 className="dark:text-white">Raise fund for your project liquidity </h3>
+                                <p className="dark:text-grey mt-2 text-sm">click create token presale and fill information about your presale type. Then click on proceed to list your token for presale.</p>
+                                <div className="bg-light dark:bg-black rounded-lg mt-3 mb-3 lg:w-100 lg:h-46">
+                                <img src={require('../images/img3.png').default}/>
+                                </div>
+                            </div>
                         </div>
-                    </div>
-                  </div>
+                   </div>
+
+                   <div className="mt-8 pt-6 m-10 lg:m-20">
+                       <h1 className="text-start text-2xl font-serif dark:text-white mb-8">How to get started as an Investor</h1>
+                 
+                        <div className="grid lg:grid-cols-3 gap-10 ">
+                            <div className="mt-2">
+                            <small class="tag mb-2 block relative">
+                                    <div class="text-4xl font-semibold absolute left-0 bottom-0 transform -translate-x-1/2 text-grey  dark:text-opacity-10">
+                                    01
+                                    </div> 
+                                    <p className="text-red mx-3 text-sm relative">CONNECT</p>
+                                </small> 
+                                <h3 className="dark:text-white">Connect your wallet</h3>
+                                <p className="dark:text-grey text-sm mt-2">Using Metamask, you will have the ability to see your coins appear in your Cointools Portfolio automatically.</p>
+                                <div className="bg-light dark:bg-black rounded-lg mt-3 mb-3 lg:w-100 lg:h-46">
+                                <img src={require('../images/img1.png').default}/>
+                                </div>
+                                
+                            </div>
+                            <div className="mt-2">
+                                <small class="tag mb-2 block relative">
+                                    <div class="text-4xl font-semibold absolute left-0 bottom-0 transform -translate-x-1/2 text-grey  dark:text-opacity-10">
+                                    02
+                                    </div> 
+                                    <p className="text-red mx-3 text-sm relative">CREATE A TOKEN</p>
+                                </small> 
+                                <h3 className="dark:text-white">Click on launchpad lists</h3>
+                                <p className="dark:text-grey text-sm mt-2">Click on any of the listed projects to invest on, read the token details and visit their social handles and website to verify the authenticity of the project.</p>
+                                <div className="bg-light dark:bg-black rounded-lg mt-3 mb-3 lg:w-100 lg:h-46">
+                                <img src={require('../images/img2.png').default}/>
+                                </div>
+
+                            </div>
+                            
+                        
+                            <div className="mt-2">
+                                <small class="tag mb-2 block relative">
+                                    <div class="text-4xl font-semibold absolute left-0 bottom-0 transform -translate-x-1/2 text-grey dark:text-opacity-10">
+                                    03
+                                    </div> 
+                                    <p className="text-red mx-3 text-sm relative">INVEST YOUR FUND </p>
+                                </small> 
+                                <h3 className="dark:text-white">Buy the token</h3>
+                                <p className="dark:text-grey mt-2 text-sm">Fill the amount of token you want to buy and click on buy button, then the amount of the token you buys will be send to your wallet automatically with any obstruction if your transaction is successful.</p>
+                                <div className="bg-light dark:bg-black rounded-lg mt-3 mb-3 lg:w-100 lg:h-46">
+                                <img src={require('../images/img3.png').default}/>
+                                </div>
+                            </div>
+                        </div>
+                   </div>
+
+            
             </div>
 
             <div ref={features} className="m-5 overflow-hidden relative">
@@ -153,7 +209,7 @@ function Navbar() {
                     <div className="relative lg:m-24 lg:pt-8 ">
                         <div className="grid lg:grid-cols-2 ">
                         <div className="m-10 pt-5">
-                        <h1 className="text-2xl text-black mb-3 dark:text-white">Stay on-top of all crypto assets, in one place</h1>
+                        <h1 className="text-2xl text-black mb-3 dark:text-white font-serif">Stay on-top of all crypto assets, in one place</h1>
                         <h3 className="text-xl text-gray">Get started with your Technical Analysis and Market Research immediately without first needing to register your account.</h3>
                        </div>
 
@@ -264,26 +320,48 @@ function Navbar() {
                         <div className="grid lg:grid-cols-3 gap-5 mx-3 ">
                         <div className="m-3">
                             <div className="flex">
-                             <BsLaptop className="mt-2 dark:text-white"/>
-                             <h3 className="text-black mx-2 mt-1 dark:text-white">Trading View</h3>   
+                             <h3 className="text-black mt-1 dark:text-white">Token creation</h3>   
                             </div>
                             
-                            <p className="text-gray mb-2 mt-2 text-sm">Use the familiar TradingView to get the best experience for your Technical Analysis. Alternatively switch to a different view.</p>
+                            <p className="text-gray mb-2 mt-2 text-sm"> Create your custom token of your choice network instantly without any prior code or smart contract knowledge.</p>
                         </div>
                         <div className="m-3">
-                            <div className="flex mt-4">
-                                <MdOutlineStorefront className="mt-2 dark:text-white"/>
-                               <h3 className="text-black mx-2 mt-1 dark:text-white">Customisable market page</h3>  
+                            <div className="flex">
+                               <h3 className="text-black mt-1 dark:text-white">Token sale</h3>  
                             </div>                      
-                            <p className="text-gray mt-2 text-sm"> Customisable market page Two column? Three? Four? You decide how you want to experience our market page and which modules to show.</p>
+                            <p className="text-gray mt-2 text-sm"> Create a launchpad where you can raise fund to add liquidity to your token project.</p>
                         </div>
                         <div className="m-3">
-                            <div className="flex mt-4">
-                              <BiUserCircle className="mt-2 dark:text-white"/>
-                               <h3 className="text-black mx-2 mt-1 dark:text-white">No account required</h3> 
+                            <div className="flex">
+                               <h3 className="text-black  mt-1 dark:text-white">VIP</h3>  
+                            </div>                      
+                            <p className="text-gray mt-2 text-sm">investors who like to be getting update on legit token listed for presales can be whitelist on our platform.</p>
+                        </div>   
+                        <div className="m-3">
+                            <div className="flex">
+                               <h3 className="text-black mt-1 dark:text-white">Affiliate Marketing</h3>  
+                            </div>                      
+                            <p className="text-gray mt-2 text-sm"> Everyone who is interested to earn by helping project owner get more sales for their projects can apply for this.</p>
+                        </div>
+                        <div className="m-3">
+                            <div className="flex">
+                               <h3 className="text-black  mt-1 dark:text-white">Marketing</h3> 
                             </div>
                             
-                            <p className="text-gray mt-2 mb-10 text-sm">Start using the application free of charge and without an account, call it decentralized. *Better experience when you do have an account</p>
+                            <p className="text-gray mt-2  text-sm">We are the only IDO platform that doesn’t neglect project owners in their token presales. We got professional and experienced marketers to help you get investors for your token sale. The strategies to this is affiliate marketing.</p>
+                        </div>
+                        <div className="m-3">
+                            <div className="flex">
+                               <h3 className="text-black mt-1 dark:text-white">Multisender</h3> 
+                            </div>
+                            
+                            <p className="text-gray mt-2  text-sm">We provide you tool  to multisend your token to any valid wallet if your choice at low rate. Management- we give opportunities for project owner to manage their token presale with your platform KYC- with our KYC project owners can be verified and make investors have trust in their projects since they can be traceable should in case of project rug pull. </p>
+                        </div>
+                        <div className="m-3">
+                            <div className="flex">
+                               <h3 className="text-black mt-1 dark:text-white">Community</h3>  
+                            </div>                      
+                            <p className="text-gray mt-2 text-sm mb-10"> we have a large community where details about earn crypto projects listed on our platform will be discussed and project owner can subscribe to do AMM on their project.</p>
                         </div>
                         </div>
                
@@ -302,8 +380,8 @@ function Navbar() {
                         </div>
                    
                          <div className="m-5 lg:p-6 lg:pt-8 pt-3 lg:mx-auto">
-                        <h1 className="text-2xl text-black mb-3 dark:text-white">Tracking your coins comfortably on multiple networks</h1>
-                        <h3 className="text-xl text-gray-500 dark:text-gray">Switching your Metamask wallet from BSC to ETH and back again isn’t fun. We’re putting the puzzle pieces in place to solve switching back and forth so much.</h3>
+                        <h1 className="text-2xl text-black mb-3 dark:text-white font-serif">Tracking your coins comfortably on multiple networks</h1>
+                        <h3 className="text-l text-gray-500 dark:text-gray">Switching your Metamask wallet from BSC to ETH and back again isn’t fun. We’re putting the puzzle pieces in place to solve switching back and forth so much.</h3>
                          </div>
                       
                         </div>
@@ -312,22 +390,19 @@ function Navbar() {
                         
                         <div className="lg:p-10 m-3 ">
                             <div className="flex mt-4">
-                             <BsLaptop className="mt-2 dark:text-white"/>
-                             <h3 className="text-black mx-2 mt-1 dark:text-white">Track and follow coins</h3>   
+                             <h3 className="text-black mt-1 dark:text-white">Track and follow coins</h3>   
                             </div>
                             <p className="text-gray text-sm mb-2 mt-2">Adding coins to your portfolio manually, you can decide how much information you enter without worrying about trading pairs.</p>
                         </div>
                         <div className="lg:p-10 m-3">
                             <div className="flex mt-4">
-                                <MdOutlineStorefront className="mt-2 dark:text-white"/>
-                               <h3 className="text-black mx-2 mt-1 dark:text-white"> Full-screen tracker</h3>  
+                               <h3 className="text-black  mt-1 dark:text-white"> Full-screen tracker</h3>  
                             </div>     
                             <p className="text-gray text-sm mt-2">A detailed solution built to let you track many coins at once on a single screen experience with unique interactions.</p>
                         </div>
                         <div className="lg:p-10 m-3">
                             <div className="flex mt-4">
-                              <BiUserCircle className="mt-2 dark:text-white"/>
-                               <h3 className="text-black mx-2 mt-1 dark:text-white">Multiple networks</h3> 
+                               <h3 className="text-black mt-1 dark:text-white">Multiple networks</h3> 
                             </div>         
                             <p className="text-gray text-sm mt-2 mb-10 ">We will remember some of your unstored coin information, to allow for switching back and forth on networks. <br/> *This information is remembered on your machine</p>
                         </div>
@@ -344,7 +419,7 @@ function Navbar() {
                         <div className="relative lg:m-24 lg:pt-8">
                             <div className="grid lg:grid-cols-2">
                             <div className="m-10 pt-5">
-                            <h1 className="text-2xl text-black mb-3 dark:text-white">Stay connected, earn and learn about crypto</h1>
+                            <h1 className="text-2xl text-black mb-3 dark:text-white font-serif">Stay connected, earn and learn about crypto</h1>
                             <h3 className="text-l text-gray">Share with your friends, recommend crypto to your family, read about crypto currency and earn by holding our coin while doing it.</h3>
                         </div>
 
@@ -358,48 +433,43 @@ function Navbar() {
                             <div className="grid lg:grid-cols-3 gap-5 mx-3 ">
                             <div className="m-3">
                                 <div className="flex">
-                                <BsLaptop className="mt-2 dark:text-white"/>
-                                <h3 className="text-black mx-2 mt-1 dark:text-white"> Learn from professionals</h3>   
+                                <h3 className="text-black mt-1 dark:text-white"> Learn from professionals</h3>   
                                 </div>
                                 
                                 <p className="text-gray-500 mb-2 mt-2 text-sm text-gray">Insights by industry professionals and a more technical aspect of how you can start creating your own project.</p>
                             </div>
                             <div className="m-3">
                                 <div className="flex mt-4">
-                                    <MdOutlineStorefront className="mt-2 dark:text-white"/>
-                                <h3 className="text-black mx-2 mt-1 dark:text-white">Share via Twitter</h3>  
+                                <h3 className="text-black mt-1 dark:text-white">Share via Twitter</h3>  
                                 </div>
                             
                                 <p className="text-gray-500 mt-2 text-sm text-gray">An easy & graphical way to share your crypto wins in a customistable, discrete way! Show-off by not showing the numbers off. <br/> If you get what we mean...</p>
                             </div>
                             <div className="m-3">
                                 <div className="flex mt-4">
-                                <BiUserCircle className="mt-2 dark:text-white"/>
-                                <h3 className="text-black mx-2 mt-1 dark:text-white">Learning Hub</h3> 
+                                <h3 className="text-black mt-1 dark:text-white">Learning Hub</h3> 
                                 </div>
                                 
                                 <p className="text-gray-500  mt-2 mb-10 text-sm text-gray">Start or keep learning about how crypto-currency works. Introduce family and friends. <br/> *Not financial advive</p>
                             </div>
                             </div>
-
                             <div className="grid lg:grid-cols-3 gap-5 mx-3">
                             <div className="m-3">
                                 <div className="flex">
-                                <BsLaptop className="mt-2 dark:text-white"/>
-                                <h3 className="text-black dark:text-white mx-2 mt-1"> Earn while you learn</h3>   
+                                <h3 className="text-black dark:text-white mt-1"> Earn while you learn</h3>   
                                 </div>
                                 <p className="text-gray text-sm mb-2 mt-2 ">Our platform has a buy-back system that will use a large portion of our ad-revenue to buy-back stock, increasing its value. <br/> *You must hold our coin to earn.</p>
                             </div>
                             <div className="m-3 lg:mb-12 ">
                             <div class="w-full h-full bg-blue hover:text-black text-center cursor-pointer rounded flex items-center justify-center text-white">
-                                <a target="_blank" href="#" class="text-lg text-center py-5">
+                                <a target="_blank" href="t.me/lincolnsale" class="text-lg text-center py-5">
                                 <div class="block">Join us on Telegram</div>
                                 </a>
                             </div>
                             </div>
                             <div className="m-3 lg:mb-12">
                             <div class="w-full h-full bg-blue hover:text-black text-center cursor-pointer rounded flex items-center justify-center text-white">
-                                <a target="_blank" href="#" class="text-lg text-center py-5">
+                                <a target="_blank" href="https://Twitter.com/lincolnsale" class="text-lg text-center py-5">
                                 <div class="block">Share on twitter</div>
                                 </a>
                             </div>  
@@ -416,7 +486,7 @@ function Navbar() {
                 <h3 className="mb-8 text-xl lg:text-2xl m-5  dark:text-white">Interested in Cointools? We're launching our coin soon and would love to have you as an early adopter.</h3> 
                  <a href="#"><button className="rounded-lg py-2 px-2 border-2 text-gray dark:hover:text-white hover:text-black">Read the lightpaper</button></a> 
                  <hr className="border-0 my-2 md:hidden"/>
-                 <a href="#"><button className="bg-blue rounded-lg px-2 py-2  hover:text-black text-white hover:border-2 mx-3">Follow us on Twitter</button></a>
+                 <a href="https://Twitter.com/lincolnsale"><button className="bg-blue rounded-lg px-2 py-2  hover:text-black text-white hover:border-2 mx-3">Follow us on Twitter</button></a>
             </div>
 
 
@@ -424,8 +494,8 @@ function Navbar() {
               <div className="rounded-lg bg-light dark:bg-middle relative  container-lg">
                 <div className="lg:m-24">
                     <div className="m-3">
-                        <h1 className="mx-2 text-2xl lg:text-3xl text-black pt-5 lg:text-center lg:pt-10 dark:text-light">Tokenomics</h1>
-                        <p className="text-gray-500 mx-2 mt-2 lg:mt-4 mb-3 lg:text-center dark:text-gray">Within the sale period, there is no tax implementation. This will start only after an AMM listing. All unsold tokens will be burned.</p>
+                        <h1 className="mx-2 text-2xl lg:text-3xl text-black pt-5 lg:text-center lg:pt-10 dark:text-light font-serif">Tokenomics</h1>
+                        <p className="text-gray-500 mx-2 mt-2 lg:mt-4 mb-3 lg:text-center text-l dark:text-gray">Within the sale period, there is no tax implementation. This will start only after an AMM listing. All unsold tokens will be burned.</p>
                         <div class="grid lg:grid-cols-3 gap-5 pt-5">
                             <div class="bg-white dark:bg-body dark:text-white rounded p-5 text-lg lg:mb-5"data-aos="fade-up">
                                 <h6>0.5% Burn</h6>
@@ -452,7 +522,7 @@ function Navbar() {
                     <div className="lg:m-24">
                     
                         <div className="text-center p-5">
-                        <h1 className="text-2xl text-black mb-3 pt-8 dark:text-white">Roadmap</h1>
+                        <h1 className="text-2xl text-black mb-3 pt-8 dark:text-white font-serif">Roadmap</h1>
                         <p className="text-gray-500 dark:text-white">Project features and marketing roadmap for the year 2021</p>
                         </div>
 
@@ -601,15 +671,15 @@ function Navbar() {
             </div>    
 
             <div  className="container-lg text-center bg-blue m-6 rounded-lg lg:h-64 h-80">
-                <div className="p-8 lg:p-18 md:p-12">
+                <div className="p-12 lg:p-18 ">
                 <h3 className="text-white text-center text-xl">You're early, want to find out how to get access in the sale?</h3>
                 <div className="flex text-center justify-center">
-                    <a href="#"><button className="bg-white  text-blue rounded-lg py-2 px-2 mt-4 mb-6 mx-2">Ask in telegram</button></a> 
+                    <a href="t.me/lincolnsale"><button className="bg-white  text-blue rounded-lg py-2 px-2 mt-4 mb-6 mx-2">Ask in telegram</button></a> 
                     <a href="#"><button className="bg-white  text-blue rounded-lg py-2 px-3 mt-4 mb-6 mx-2">Direct email</button></a>
                 </div> 
              
                 <div className="flex text-center justify-center">
-                <a href="#!" type="button" class="rounded-full border-2 border-white text-white leading-normal uppercase hover:bg-black hover:bg-opacity-5 focus:outline-none focus:ring-0 transition duration-150 ease-in-out w-9 h-9 m-1">
+                <a href="https://Facebook.com/lincolnsale" type="button" class="rounded-full border-2 border-white text-white leading-normal uppercase hover:bg-black hover:bg-opacity-5 focus:outline-none focus:ring-0 transition duration-150 ease-in-out w-9 h-9 m-1">
                     <svg aria-hidden="true"
                     focusable="false"
                     data-prefix="fab"
@@ -626,7 +696,7 @@ function Navbar() {
                     </svg>
                 </a>
 
-                <a href="#!" type="button" class="rounded-full border-2 border-white text-white leading-normal uppercase hover:bg-black hover:bg-opacity-5 focus:outline-none focus:ring-0 transition duration-150 ease-in-out w-9 h-9 m-1">
+                <a href="https://Twitter.com/lincolnsale" type="button" class="rounded-full border-2 border-white text-white leading-normal uppercase hover:bg-black hover:bg-opacity-5 focus:outline-none focus:ring-0 transition duration-150 ease-in-out w-9 h-9 m-1">
                     <svg aria-hidden="true"
                     focusable="false"
                     data-prefix="fab"
@@ -643,24 +713,11 @@ function Navbar() {
                     </svg>
                 </a>
 
-                <a href="#!" type="button" class="rounded-full border-2 border-white text-white leading-normal uppercase hover:bg-black hover:bg-opacity-5 focus:outline-none focus:ring-0 transition duration-150 ease-in-out w-9 h-9 m-1">
-                    <svg aria-hidden="true"
-                    focusable="false"
-                    data-prefix="fab"
-                    data-icon="linkedin-in"
-                    class="w-3 h-full mx-auto"
-                    role="img"
-                    xmlns="http://www.w3.org/2000/svg"
-                    viewBox="0 0 448 512"
-                    >
-                    <path
-                        fill="currentColor"
-                        d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z"
-                    ></path>
-                    </svg>
+                <a href="https://medium.com/lincolnsale" type="button" class="rounded-full border-2 border-white text-white leading-normal uppercase hover:bg-black hover:bg-opacity-5 focus:outline-none focus:ring-0 transition duration-150 ease-in-out w-9 h-9 m-1">
+                <div className="items-center mt-1">
+                     <i class="fa-brands fa-medium"></i>
+                </div>  
                 </a>
-
-
                 </div>
 
                 <div className="text-center text-gray-700 p-3">
@@ -672,11 +729,6 @@ function Navbar() {
 
             </div> 
 
-            
-
-                    
-       
-            
     </div>
   )
 }
