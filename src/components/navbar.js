@@ -1,19 +1,16 @@
 import React from 'react'
 import { useRef, useEffect } from 'react';
 import ScrollToTop from './ScrollToTop';
-import { FiTwitter } from 'react-icons/fi';
-import { TbBrandTelegram } from 'react-icons/tb';
-import { FiInstagram } from 'react-icons/fi';
 import { FaBtc } from 'react-icons/fa';
 import { GiSuitcase } from 'react-icons/gi';
 import { TbCurrencyEthereum } from 'react-icons/tb'
 import { AiOutlineStar } from 'react-icons/ai';
-import { BiUserCircle } from 'react-icons/bi';
-import { MdOutlineStorefront } from 'react-icons/md';
-import { BsLaptop } from 'react-icons/bs';
 import Toggle from './toggle';
 import Aos from 'aos';
 import "aos/dist/aos.css";
+
+
+ 
 
 function Navbar() {
     const howItWorks = useRef(null);
@@ -40,9 +37,9 @@ function Navbar() {
             
             <div className="flex justify-between items-center max-w[1240]  px-6">
                 <div className="flex mt-3">
-                <img src={require('../images/logo.svg').default} height={37} width={37} className="md:block sm:hidden mx-2 lg:mx-3 lg:animate-bounce cursor-pointer"/>
+                <img src={require('../images/logo2.png')} height={100} width={100} className="md:block sm:hidden mx-2 lg:mx-3 cursor-pointer"/>
                 <div className="flex ">
-                    <ul className="hidden sm:flex sm:visible gap-2 lg:gap-3 mt-2 mx-3">
+                    <ul className="hidden sm:flex sm:visible gap-2 lg:gap-3 lg:mt-8  mx-3">
 
                     <li onClick={() => scrollToSection(howItWorks)} className=" cursor-pointer text-black dark:text-grey hover:text-blue dark:hover:text-white">How</li>
                     <li onClick={() => scrollToSection(features)}  className="  cursor-pointer text-black dark:text-grey hover:text-blue dark:hover:text-white">Features</li>
@@ -62,10 +59,10 @@ function Navbar() {
                     </div>
                     
                     <div className="grid grid-cols-2 mt-2 lg:mt-0">
-                        <a href="#">
+                        <a href="http://lincolnsale.com/">
                             <button className="bg-blue rounded  px-1 py-1 text-white font-semibold hover:text-black ">Lightpaper</button>
                         </a>   
-                        <a href="t.me/lincolnsale">
+                        <a href="https://t.me/lincolnsale">
                             <button className="rounded mx-2 lg:mx-2 md:mx-3 px-1 py-1 dark:hover:text-white hover:text-black font-semibold border-2 text-gray">Telegram</button>
                         </a>   
 
@@ -79,8 +76,8 @@ function Navbar() {
                     <p className="text-black dark:text-gray mt-6">Find, store and share your crypto in one place</p>
                     <h1 className="text-3xl mt-4 font-semibold dark:text-white">The <div class="text-blue inline text-4xl font-semibold">fully customisable</div> crypto trade and research tool</h1>
                     <p className="text-red mt-8">You won't need 5 tabs any longer</p>
-                    <div className="m-10 hover:shadow-lg">
-                           <img src={require('../images/lightimg.jpg')} className="rounded-lg"/>
+                    <div className="m-10 grid place-items-center">
+                           <img src={require('../images/dash.jpg')} className="rounded-lg shadow"/>
                     </div>
 
                     
@@ -199,7 +196,7 @@ function Navbar() {
                         </div>
                    </div>
 
-            
+           
             </div>
 
             <div ref={features} className="m-5 overflow-hidden relative">
@@ -436,33 +433,33 @@ function Navbar() {
                                 <h3 className="text-black mt-1 dark:text-white"> Learn from professionals</h3>   
                                 </div>
                                 
-                                <p className="text-gray-500 mb-2 mt-2 text-sm text-gray">Insights by industry professionals and a more technical aspect of how you can start creating your own project.</p>
+                                <p className="text-gray-500 mb-2 mt-2 text-sm text-gray">You can hire blockchain developers, smart contract auditor digital marketers, shillers and other professionals on our platform. You can partner with them to help you get your project done and advertise your project.</p>
                             </div>
                             <div className="m-3">
                                 <div className="flex mt-4">
                                 <h3 className="text-black mt-1 dark:text-white">Share via Twitter</h3>  
                                 </div>
                             
-                                <p className="text-gray-500 mt-2 text-sm text-gray">An easy & graphical way to share your crypto wins in a customistable, discrete way! Show-off by not showing the numbers off. <br/> If you get what we mean...</p>
+                                <p className="text-gray-500 mt-2 text-sm text-gray">An easy & graphical way to share your crypto wins in a customistable, discrete way! Show-off by not showing the numbers off.<br/> If you get what we mean...</p>
                             </div>
                             <div className="m-3">
                                 <div className="flex mt-4">
-                                <h3 className="text-black mt-1 dark:text-white">Learning Hub</h3> 
+                                <h3 className="text-black mt-1 dark:text-white">Launchpad Channel</h3> 
                                 </div>
                                 
-                                <p className="text-gray-500  mt-2 mb-10 text-sm text-gray">Start or keep learning about how crypto-currency works. Introduce family and friends. <br/> *Not financial advive</p>
+                                <p className="text-gray-500  mt-2 mb-10 text-sm text-gray">Start or keep updated on every new projects listed for presale and make a cool earning with it. We share new project release both private sale and public sale.  <br/> *Not financial advive</p>
                             </div>
                             </div>
                             <div className="grid lg:grid-cols-3 gap-5 mx-3">
                             <div className="m-3">
                                 <div className="flex">
-                                <h3 className="text-black dark:text-white mt-1"> Earn while you learn</h3>   
+                                <h3 className="text-black dark:text-white mt-1"> Earn with our Token</h3>   
                                 </div>
-                                <p className="text-gray text-sm mb-2 mt-2 ">Our platform has a buy-back system that will use a large portion of our ad-revenue to buy-back stock, increasing its value. <br/> *You must hold our coin to earn.</p>
+                                <p className="text-gray text-sm mb-2 mt-2 ">Our platform has it own token, which is a profit-generating and usable token that introduces an element profit-sharing through airdrop fee to the holders and staking APY. <br/> *You must hold our token to earn.</p>
                             </div>
                             <div className="m-3 lg:mb-12 ">
                             <div class="w-full h-full bg-blue hover:text-black text-center cursor-pointer rounded flex items-center justify-center text-white">
-                                <a target="_blank" href="t.me/lincolnsale" class="text-lg text-center py-5">
+                                <a target="_blank" href="https://t.me/lincolnsale" class="text-lg text-center py-5">
                                 <div class="block">Join us on Telegram</div>
                                 </a>
                             </div>
@@ -484,7 +481,7 @@ function Navbar() {
 
             <div className="mx-auto md:w-2/3 text-center">
                 <h3 className="mb-8 text-xl lg:text-2xl m-5  dark:text-white">Interested in Cointools? We're launching our coin soon and would love to have you as an early adopter.</h3> 
-                 <a href="#"><button className="rounded-lg py-2 px-2 border-2 text-gray dark:hover:text-white hover:text-black">Read the lightpaper</button></a> 
+                 <a href="http://lincolnsale.com/"><button className="rounded-lg py-2 px-2 border-2 text-gray dark:hover:text-white hover:text-black">Read the lightpaper</button></a> 
                  <hr className="border-0 my-2 md:hidden"/>
                  <a href="https://Twitter.com/lincolnsale"><button className="bg-blue rounded-lg px-2 py-2  hover:text-black text-white hover:border-2 mx-3">Follow us on Twitter</button></a>
             </div>
@@ -674,8 +671,8 @@ function Navbar() {
                 <div className="p-12 lg:p-18 ">
                 <h3 className="text-white text-center text-xl">You're early, want to find out how to get access in the sale?</h3>
                 <div className="flex text-center justify-center">
-                    <a href="t.me/lincolnsale"><button className="bg-white  text-blue rounded-lg py-2 px-2 mt-4 mb-6 mx-2">Ask in telegram</button></a> 
-                    <a href="#"><button className="bg-white  text-blue rounded-lg py-2 px-3 mt-4 mb-6 mx-2">Direct email</button></a>
+                    <a href="https://t.me/lincolnsale"><button className="bg-white  text-blue rounded-lg py-2 px-2 mt-4 mb-6 mx-2">Ask in telegram</button></a> 
+                    <a href="mailto:http://lincolnsale.com/"><button className="bg-white  text-blue rounded-lg py-2 px-3 mt-4 mb-6 mx-2">Direct email</button></a>
                 </div> 
              
                 <div className="flex text-center justify-center">
