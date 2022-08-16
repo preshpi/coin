@@ -39,7 +39,7 @@ function Navbar() {
             
             <div className="flex justify-between items-center max-w[1240]  px-6">
                 <div className="flex mt-3">
-                <img src={require('../images/logo2.png')} height={100} width={100} className="md:block sm:hidden mx-2 lg:mx-3 cursor-pointer"/>
+                <img src={require('../images/logo2.png')} height={100} width={100} className="md:block sm:hidden mx-1 lg:mx-3 cursor-pointer"/>
                 <div className="flex ">
                     <ul className="hidden sm:flex sm:visible gap-2 lg:gap-3 lg:mt-8  mx-3">
 
@@ -56,16 +56,16 @@ function Navbar() {
 
                 <div className="flex mt-2">
              
-                    <div className="mx-3 mt-2 lg:mt-0">
+                    <div className="mx-1 mt-2 lg:mt-0">
                         <Toggle className=" dark:text-gray"/>
                     </div>
                     
                     <div className="grid grid-cols-2 mt-2 lg:mt-0">
                         <a href="http://lincolnsale.com/">
-                            <button className="bg-blue rounded  px-1 py-1 text-white font-semibold hover:text-black ">Lightpaper</button>
+                            <button className="bg-blue rounded  px-1 py-1 text-white font-semibold hover:text-black">Lightpaper</button>
                         </a>   
                         <a href="https://t.me/lincolnsale">
-                            <button className="rounded mx-2 lg:mx-2 md:mx-3 px-1 py-1 dark:hover:text-white hover:text-black font-semibold border-2 text-gray">Telegram</button>
+                            <button className="rounded mx-3 lg:mx-2 md:mx-3 px-1 py-1 dark:hover:text-white hover:text-black font-semibold border-2 text-gray">Telegram</button>
                         </a>   
 
                     </div>
@@ -94,7 +94,7 @@ function Navbar() {
             <div class="max-w-[517px] mx-auto text-center">
                 <small class="tag text-red tracking-wider dark:text-red">APPLICATION</small> 
                 <h1 className="text-2xl text-black dark:text-white mt-2">We're giving you the power <br/> to decide... </h1>
-                <p class="mb-3 text-gray mt-2 lg:text-xl m-4 lg:m-8">Cointools keeps the application design easy to learn with features that keep it simple. Browse
+                <p class="mb-3 text-gray mt-2 lg:text-xl m-4 lg:m-8">lincolnsales keeps the application design easy to learn with features that keep it simple. Browse
                   through thousands of crypto opportunities and keep your eye on the ball with our intuitive app.</p>
                    <a target="_blank" href="t.me/lincolnsale"><button className="dark:hover:text-light border-2 rounded-lg px-2 py-1 text-gray">Join our Telegram</button></a></div>
 
@@ -193,7 +193,7 @@ function Navbar() {
                                     <p className="text-red mx-3 text-sm relative">CONNECT</p>
                                 </small> 
                                 <h3 className="dark:text-white">Connect your wallet</h3>
-                                <p className="dark:text-grey text-sm mt-2">Using Metamask, you will have the ability to see your coins appear in your Cointools Portfolio automatically.</p>
+                                <p className="dark:text-grey text-sm mt-2">Using Metamask, you will have the ability to see your coins appear in your lincolnsales Portfolio automatically.</p>
                                 <div className="bg-light dark:bg-black rounded-lg mt-3 mb-3 lg:w-100 lg:h-46">
                                 <img src={require('../images/img1.png').default}/>
                                 </div>
@@ -235,19 +235,19 @@ function Navbar() {
             </div>
                                         {/* Features section */}
 
-            <div ref={features} className="m-5 overflow-hidden relative">
+            <div ref={features} className="m-5  relative">
                 <div className="rounded-lg bg-light relative  container-lg dark:bg-middle">
                    <img src={require('../images/btc.svg').default} className="w-full h-full object-cover absolute rounded-lg imp hidden md:flex md:visible"/>
                 <div className="">
                     <div className="relative lg:m-24 lg:pt-8 ">
-                        <div className="grid lg:grid-cols-2 ">
+                        <div className="grid lg:grid-cols-2">
                         <div className="m-10 pt-5">
                         <h1 className="text-2xl text-black mb-3 dark:text-white font-serif">Stay on-top of all crypto assets, in one place</h1>
                         <h3 className="text-xl text-gray">Get started with your Technical Analysis and Market Research immediately without first needing to register your account.</h3>
                        </div>
 
                        <div>
-                        <div className="flex gap-5  lg:p-8 m-10  mx-auto px-4 justify-between">
+                        <div className="grid grid-cols-2 lg:flex gap-5  lg:p-8 m-10  mx-auto px-4 justify-between">
                             <div className="rounded-lg bg-white  dark:bg-body shadow-lg w-full mb-5 lg:w-screen">
                                <div className="flex mx-3 mt-3 place-content-between">
                                  <div className="flex ">
@@ -515,8 +515,8 @@ function Navbar() {
                </div>
             </div>
 
-            <div className="mx-auto md:w-2/3 text-center">
-                <h3 className="mb-8 text-xl lg:text-2xl m-5  dark:text-white">Interested in Cointools? We're launching our coin soon and would love to have you as an early adopter.</h3> 
+            <div className="mx-auto md:w-2/3 text-center mt-10">
+                <h3 className="mb-8 text-xl lg:text-2xl m-5  dark:text-white">Interested in Lincolnsale? We're launching our coin soon and would love to have you as an early adopter.</h3> 
                  <a href="http://lincolnsale.com/"><button className="rounded-lg py-2 px-2 border-2 text-gray dark:hover:text-white hover:text-black">Read the lightpaper</button></a> 
                  <hr className="border-0 my-2 md:hidden"/>
                  <a href="https://Twitter.com/lincolnsale"><button className="bg-blue rounded-lg px-2 py-2  hover:text-black text-white hover:border-2 mx-3">Follow us on Twitter</button></a>
@@ -540,7 +540,7 @@ function Navbar() {
                                 </div> 
                                     <div class="bg-white dark:bg-body dark:text-white rounded p-5 text-lg mb-5"data-aos="fade-up">
                                         <h6>80% Ad-Revenue Buyback</h6> 
-                                        <p class="mb-0 text-sm dark:text-gray">We are allocating 80% of ad-revenue profits back into the Cointools coin.</p>
+                                        <p class="mb-0 text-sm dark:text-gray">We are allocating 80% of ad-revenue profits back into the lincolnsales coin.</p>
                                     </div>
                         </div>
                     </div>
@@ -580,7 +580,7 @@ function Navbar() {
                             <div class="dark:bg-body shadow text-left bg-white  dark:text-white rounded p-5 flex items-center m-3"data-aos="fade-up">
                                 <div>
                                     <h4 class="mb-0">Basic demo</h4> 
-                                    <p class="mb-0 mt-2 text-sm text-gray">Provide a public demo so you can test Cointools</p>
+                                    <p class="mb-0 mt-2 text-sm text-gray">Provide a public demo so you can test lincolnsales</p>
                                 </div>
                             </div>
                             <div class="dark:bg-body shadow text-left bg-white dark:text-white rounded p-5 flex items-center m-3" data-aos="fade-up">
@@ -639,7 +639,7 @@ function Navbar() {
                         <div class="shadow-lg text-left bg-white dark:bg-body dark:text-white rounded p-5 flex items-center m-3"data-aos="fade-up">
                             <div>
                                 <h4 class="mb-0">All core concept features</h4> 
-                                <p class="mb-0 mt-2 text-sm text-gray">Cointools proof of concept</p>
+                                <p class="mb-0 mt-2 text-sm text-gray">lincolnsales proof of concept</p>
                             </div>
                         </div>
                         <div class="shadow-lg text-left bg-white dark:bg-body dark:text-white rounded p-5 flex items-center m-3"data-aos="fade-up">
@@ -712,7 +712,7 @@ function Navbar() {
                 </div> 
              
                 <div className="flex text-center justify-center">
-                <a href="https://Facebook.com/lincolnsale" type="button" class="rounded-full border-2 border-white text-white leading-normal uppercase hover:bg-black hover:bg-opacity-5 focus:outline-none focus:ring-0 transition duration-150 ease-in-out w-9 h-9 m-1">
+                <a href="https://Facebook.com/lincolnsale" type="button" class="rounded-full border-2 border-white text-white leading-normal uppercase hover:bg-black hover:opacity-3 focus:outline-none focus:ring-0 transition duration-150 ease-in-out w-9 h-9 m-1">
                     <svg aria-hidden="true"
                     focusable="false"
                     data-prefix="fab"
@@ -729,7 +729,7 @@ function Navbar() {
                     </svg>
                 </a>
 
-                <a href="https://Twitter.com/lincolnsale" type="button" class="rounded-full border-2 border-white text-white leading-normal uppercase hover:bg-black hover:bg-opacity-5 focus:outline-none focus:ring-0 transition duration-150 ease-in-out w-9 h-9 m-1">
+                <a href="https://Twitter.com/lincolnsale" type="button" class="rounded-full border-2 border-white text-white leading-normal uppercase hover:bg-black hover:opacity-3 focus:outline-none focus:ring-0 transition duration-150 ease-in-out w-9 h-9 m-1">
                     <svg aria-hidden="true"
                     focusable="false"
                     data-prefix="fab"
@@ -746,7 +746,7 @@ function Navbar() {
                     </svg>
                 </a>
 
-                <a href="https://medium.com/lincolnsale" type="button" class="rounded-full border-2 border-white text-white leading-normal uppercase hover:bg-black hover:bg-opacity-5 focus:outline-none focus:ring-0 transition duration-150 ease-in-out w-9 h-9 m-1">
+                <a href="https://medium.com/lincolnsale" type="button" class="rounded-full border-2 border-white text-white leading-normal uppercase hover:bg-black hover:opacity-3 focus:outline-none focus:ring-0 transition duration-150 ease-in-out w-9 h-9 m-1 text-center">
                 <div className="items-center mt-1">
                      <i class="fa-brands fa-medium"></i>
                 </div>  

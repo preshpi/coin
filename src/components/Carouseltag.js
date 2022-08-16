@@ -15,7 +15,7 @@ function Carouseltag() {
     <div className="rounded-lg text-center bg-light dark:bg-middle relative  container-lg mt-20 lg:m-24 dark:text-white">
         <h1 className="text-2xl mb-3 p-3 ">BENEFITS</h1>
     <Slider {...settings}>
-        <div></div>
+        
       <div>
        <h1>We are the best, secure, and most reliable IDO tools for any crypto project financing & investment.</h1>
       </div>
