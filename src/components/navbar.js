@@ -708,11 +708,11 @@ function Navbar() {
                 <h3 className="text-white text-center text-xl">You're early, want to find out how to get access in the sale?</h3>
                 <div className="flex text-center justify-center">
                     <a href="https://t.me/lincolnsale"><button className="bg-white  text-blue rounded-lg py-2 px-2 mt-4 mb-6 mx-2">Ask in telegram</button></a> 
-                    <a href="mailto:http://lincolnsale.com/"><button className="bg-white  text-blue rounded-lg py-2 px-3 mt-4 mb-6 mx-2">Direct email</button></a>
+                    <a href="mailto:awwmultibizlimited@gmail.com"><button className="bg-white  text-blue rounded-lg py-2 px-3 mt-4 mb-6 mx-2">Direct email</button></a>
                 </div> 
              
                 <div className="flex text-center justify-center">
-                <a href="https://Facebook.com/lincolnsale" type="button" class="rounded-full border-2 border-white text-white leading-normal uppercase hover:bg-black hover:opacity-3 focus:outline-none focus:ring-0 transition duration-150 ease-in-out w-9 h-9 m-1">
+                <a href="https://Facebook.com/lincolnsale" type="button" class="rounded-full border-2 border-white text-white leading-normal uppercase hover:bg-black hover:opacity-3 focus:outline-none focus:ring-0 transition duration-150 ease-in-out w-10 h-10 m-1">
                     <svg aria-hidden="true"
                     focusable="false"
                     data-prefix="fab"
@@ -729,7 +729,7 @@ function Navbar() {
                     </svg>
                 </a>
 
-                <a href="https://Twitter.com/lincolnsale" type="button" class="rounded-full border-2 border-white text-white leading-normal uppercase hover:bg-black hover:opacity-3 focus:outline-none focus:ring-0 transition duration-150 ease-in-out w-9 h-9 m-1">
+                <a href="https://Twitter.com/lincolnsale" type="button" class="rounded-full border-2 border-white text-white leading-normal uppercase hover:bg-black hover:opacity-3 focus:outline-none focus:ring-0 transition duration-150 ease-in-out w-10 h-10 m-1">
                     <svg aria-hidden="true"
                     focusable="false"
                     data-prefix="fab"
@@ -746,8 +746,8 @@ function Navbar() {
                     </svg>
                 </a>
 
-                <a href="https://medium.com/lincolnsale" type="button" class="rounded-full border-2 border-white text-white leading-normal uppercase hover:bg-black hover:opacity-3 focus:outline-none focus:ring-0 transition duration-150 ease-in-out w-9 h-9 m-1 text-center">
-                <div className="items-center mt-1">
+                <a href="https://medium.com/lincolnsale" type="button" class="rounded-full border-2 border-white text-white leading-normal uppercase hover:bg-black hover:opacity-3 focus:outline-none focus:ring-0 transition duration-150 ease-in-out w-10 h-10 m-1 text-center">
+                <div className="items-center mt-1.5">
                      <i class="fa-brands fa-medium"></i>
                 </div>  
                 </a>
