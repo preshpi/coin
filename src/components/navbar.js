@@ -5,7 +5,9 @@ import { FaBtc } from 'react-icons/fa';
 import { GiSuitcase } from 'react-icons/gi';
 import { TbCurrencyEthereum } from 'react-icons/tb'
 import { AiOutlineStar } from 'react-icons/ai';
+import { BsPatchCheckFill } from 'react-icons/bs';
 import Toggle from './toggle';
+import Carouseltag from './Carouseltag';
 import Aos from 'aos';
 import "aos/dist/aos.css";
 
@@ -96,6 +98,39 @@ function Navbar() {
                   through thousands of crypto opportunities and keep your eye on the ball with our intuitive app.</p>
                    <a target="_blank" href="t.me/lincolnsale"><button className="dark:hover:text-light border-2 rounded-lg px-2 py-1 text-gray">Join our Telegram</button></a></div>
 
+                    <Carouseltag/>
+
+                        {/* Types of token */}
+
+                    <div className="rounded-lg bg-light dark:bg-middle relative  container-lg mt-20 lg:m-24">
+                        <div className="lg:m-24">
+                            <div className="m-3">
+                                <h1 className="mx-2 text-2xl lg:text-3xl text-black pt-5 lg:text-center lg:pt-10 dark:text-light font-serif mb-3">Types Of Token</h1> 
+                                <div class="grid lg:grid-cols-2 gap-5 pt-5">
+                                    <div class="bg-white dark:bg-body dark:text-white rounded p-5 text-lg lg:mb-5"data-aos="fade-up">
+                                        <div className="flex">
+                                        <BsPatchCheckFill className="mx-2 mt-1 text-xl"/>
+                                            <h6 className="mb-3">Standard Token</h6>
+                                        </div>
+                                        
+                                        <p class="mb-0 text-sm dark:text-gray"> We’ll help you deploy your token instantly on the eth, bsc, polygon, and fantom network at a cheap rate compared to other platforms.</p>
+                                    </div> 
+                                        
+                                    <div class="bg-white dark:bg-body dark:text-white rounded p-5 text-lg mb-5"data-aos="fade-up">
+                                        <div className="flex">
+                                        <BsPatchCheckFill className="mx-2 mt-1 text-xl"/>
+                                            <h6 className="mb-3">Deflationary Token</h6>    
+                                        </div>
+                                        <p class="mb-0 text-sm dark:text-gray">We’ll help you generate and deploy with your custom tokenomics and relevant functions to give you control over your token.</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            
+                        </div>
+                    </div>
+                   
+                                {/* How to get started as project owner */}
                    <div className="mt-8 pt-6 m-10 lg:m-20">
                        <h1 className="text-start text-2xl font-serif dark:text-white mb-8">How to get started as project owner</h1>
                  
@@ -145,7 +180,7 @@ function Navbar() {
                             </div>
                         </div>
                    </div>
-
+                                {/* How to get started as investors */}
                    <div className="mt-8 pt-6 m-10 lg:m-20">
                        <h1 className="text-start text-2xl font-serif dark:text-white mb-8">How to get started as an Investor</h1>
                  
@@ -198,6 +233,7 @@ function Navbar() {
 
            
             </div>
+                                        {/* Features section */}
 
             <div ref={features} className="m-5 overflow-hidden relative">
                 <div className="rounded-lg bg-light relative  container-lg dark:bg-middle">
